@@ -11,7 +11,11 @@ section {
     padding-top:8%;
     font-size:100%;
   }
-  
+
+body {
+    font-size: 14px;
+}
+
 img[alt~="center"] {
     display: block;
     margin: 0 auto;
