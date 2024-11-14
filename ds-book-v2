@@ -1,0 +1,75 @@
+/* @theme book */
+@import 'gaia';
+section {
+    background-color: #fff;
+    color: #000;
+    width: 1600px;
+    height: 2560px;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:8%;
+    font-size:300%;
+  }
+img[alt~="center"] {
+    display: block;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-color: lightskyblue;
+}
+footer{
+    width: 100%;
+}
+section h1{
+    margin-left: -5%;
+    margin-right: -11%;
+    border-bottom: 15px double #4CB9F6;
+}
+section p{
+    line-height: 150%;
+}
+section ul,ol{
+}
+section p,ul,ol{
+    font-size:120%;
+}
+section strong{
+    background:linear-gradient(transparent 60%, pink 60%);
+}
+section em{
+    background:linear-gradient(transparent 60%, yellow 60%);
+}
+section pre{
+    font-size:130%;
+}
+section table{
+    margin: 2% auto;
+    font-size: 120%;
+}
+/* title page */
+section.title{
+    text-align: center;
+}
+section.title h1{
+    margin: 40% -11%;
+    font-size: 220%;
+    border-bottom: 0;
+}
+/* tobira page */
+section.tobira{
+    text-align: center;
+    background-color: #d5d5d5;
+    opacity: 1;
+    background-image: linear-gradient(-60deg, #d5d5d5, #d5d5d5 50%, #ffffff 50%, #ffffff);
+    background-size: 100% 100%;
+}
+section.tobira h1{
+    padding: 0.5em 1em;
+    margin: 40% 0;
+    color: #FFF;
+    background: #6eb7ff;
+    border-bottom: solid 10px #3f87ce;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
