@@ -40,7 +40,7 @@ section p{
 section ul,ol{
 }
 section p,ul,ol{
-    font-size:55%;
+    font-size:35%;
 }
 section strong{
     background:linear-gradient(transparent 50%, pink 60%);
@@ -49,12 +49,12 @@ section em{
     background:linear-gradient(transparent 50%, yellow 60%);
 }
 section pre{
-    font-size:650%;
+    font-size:65%;
 }
 section table {
     margin-left: 0;
     margin-right: auto;
-    font-size: 80%;
+    font-size: 60%;
 }
 /* title page */
 section.title{
