@@ -46,6 +46,8 @@ section pre{
 section table{
     margin: 2% auto;
     font-size: 120%;
+    margin-left: 0;        /* 左マージンを0に */
+    margin-right: auto;    /* 右マージンを自動調整 */
 }
 /* title page */
 section.title{
