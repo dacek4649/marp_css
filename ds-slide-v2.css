@@ -49,12 +49,11 @@ section.normal { /* 通常スライド（class="normal"）用の設定 */
 }
 section.normal h1 { /* 通常スライドのh1見出しの設定 */
   color: purple; /* 見出し文字の色を紫色に設定 */
-  font-size: 32px; /* フォントサイズを32pxに設定 */
+  font-size: 36px; /* フォントサイズを36pxに設定 */
   border-bottom: 2px solid #006888; /* 見出しの下に青系の2px幅の線を追加 */
   margin-bottom: -10px; /* 下の余白を-10pxに設定し、やや上に引き上げ */
 }
 section.normal h2 { /* 通常スライドのh2見出しの設定 */
-  padding: 5px 5px; /* 内側に上下1rem、左右2remの余白を追加 */
-  border-left: 2px solid #000; /* 左側に4px幅の黒い線を追加 */
+  color: purple; /* 見出し文字の色を紫色に設定 */
   font-size: 28px; /* フォントサイズを28pxに設定 */
 }
