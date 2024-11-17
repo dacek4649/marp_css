@@ -49,15 +49,15 @@ section.normal {
 }
 section.normal h1 {
   color: purple; /* h1の文字色を紫に設定 */
-  font-size: 40px; /* フォントサイズを32pxに設定 */
+  font-size: 32px; /* フォントサイズを32pxに設定 */
   border-bottom: 2px solid #006888; /* 下線を追加 */
   margin-bottom: -10px; /* 下の余白を-10pxに設定（少し上に引き上げる） */
 }
 section.normal h2 {
   h2 {
     padding: 1rem 2rem;
-    border-left: 5px solid #000;
-    background: #f4f4f4;
-  }}
+    border-left: 4px solid #000;
+    font-size: 28px;
+  }
 
 
