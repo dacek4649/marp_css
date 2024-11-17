@@ -54,7 +54,7 @@ section.normal h1 {
   margin-bottom: -10px; /* 下の余白を-10pxに設定（少し上に引き上げる） */
 }
 section.normal h2 {
-  font-size: 1.0rem; /* h2のフォントサイズを1.5remに設定 */
+  font-size: 32px; /* h2のフォントサイズを1.5remに設定 */
 }
 
 
