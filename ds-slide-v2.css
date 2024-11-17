@@ -54,20 +54,10 @@ section.normal h1 {
   margin-bottom: -10px; /* 下の余白を-10pxに設定（少し上に引き上げる） */
 }
 section.normal h2 {
-  font-size: 32px; /* h2のフォントサイズを1.5remに設定 */
-}
+  h2 {
+    padding: 1rem 2rem;
+    border-left: 5px solid #000;
+    background: #f4f4f4;
+  }}
 
 
-section.final {
-  background-image: url(./img/logo.png);
-  background-repeat: no-repeat;
-  background-size: 800px;
-  background-position-x: center;
-  background-position-y: center;
-  font-size: 100pm;
-}
-
-img[alt~="center"]{
-  display: block;
-  margin: 0 auto;
-}
