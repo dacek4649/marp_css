@@ -21,6 +21,18 @@ section { /* 全スライド共通の設定 */
   font-family: sans-serif, "Hiragino Kaku Gothic ProN", Meiryo; /* 使用フォントを指定 */
 }
 
+section.mokuji {
+  font-size: 24px;
+}
+
+section.mokuji h1 { /* 通常スライドのh1見出しの設定 */
+  color: purple; /* 見出し文字の色を紫色に設定 */
+  font-size: 28px; /* フォントサイズを23pxに設定 */
+  border-bottom: 2px solid #006888; /* 見出しの下に青系の2px幅の線を追加 */
+  margin-bottom: 10px; /* 下の余白を-10pxに設定し、やや上に引き上げ */
+}
+
+
 /* 表紙スライドの設定 */
 section.top { /* 表紙スライド（class="top"）用の設定 */
   background-repeat: no-repeat; /* 背景画像を繰り返さないように設定 */
@@ -30,13 +42,13 @@ section.top { /* 表紙スライド（class="top"）用の設定 */
 }
 section.top h1 { /* 表紙スライドのh1見出しの設定 */
   color: purple; /* 見出し文字の色を紫色に設定 */
-  font-size: 23px; /* フォントサイズを23pxに設定 */
+  font-size: 40px; /* フォントサイズを23pxに設定 */
   margin-top: 150px; /* 上に150pxの余白を設定（位置調整） */
   margin-bottom: 20px; /* 下に20pxの余白を設定 */
   text-align: center; /* テキストを中央揃えに設定 */
 }
 section.top h2 { /* 表紙スライドのh2見出しの設定 */
-  font-size: 20px; /* フォントサイズを20pxに設定 */
+  font-size: 28px; /* フォントサイズを20pxに設定 */
   margin-top: 30px; /* 上に30pxの余白を設定 */
   text-align: center; /* テキストを中央揃えに設定 */
 }
@@ -50,13 +62,13 @@ section.normal { /* 通常スライド（class="normal"）用の設定 */
 }
 section.normal h1 { /* 通常スライドのh1見出しの設定 */
   color: purple; /* 見出し文字の色を紫色に設定 */
-  font-size: 23px; /* フォントサイズを23pxに設定 */
+  font-size: 28px; /* フォントサイズを23pxに設定 */
   border-bottom: 2px solid #006888; /* 見出しの下に青系の2px幅の線を追加 */
   margin-bottom: 10px; /* 下の余白を-10pxに設定し、やや上に引き上げ */
 }
 section.normal h2 {
   color: purple; /* 見出し文字の色を紫色に設定 */
-  font-size: 20px; /* フォントサイズを20pxに設定 */
+  font-size: 24px; /* フォントサイズを20pxに設定 */
   margin-bottom: 0.5px; /* 下部の外側余白を完全になくす */
 }
 section.normal p {
@@ -66,7 +78,7 @@ section.normal h3 {
   position: relative; /* h3本体を基準に配置 */
   margin-top: 95px; /* h3の上の余白を増やす */
   margin-bottom: 0; /* h3の下の余白をなくす */
-  font-size: 20px; /* 見出しのフォントサイズ */
+  font-size: 16px; /* 見出しのフォントサイズ */
   padding: 10px; /* 内側の余白を追加 */
   border: 2px solid #6b05e8; /* 枠線を追加 */
   border-radius: 5px; /* 角を丸める */
@@ -79,7 +91,7 @@ section.normal h3:before {
   left: 0; /* 左端から配置 */
   background-color: #6b05e8; /* 背景色を薄緑に設定 */
   color: white; /* ラベルの文字色を白に設定 */
-  font-size: 18px; /* ラベルのフォントサイズを設定 */
+  font-size: 16px; /* ラベルのフォントサイズを設定 */
   padding: 5px 10px; /* ラベル内の余白を設定 */
   border-radius: 5px; /* ラベルの角を丸める */
   white-space: nowrap; /* テキストが折り返されないようにする */
