@@ -55,6 +55,6 @@ section.normal h1 { /* 通常スライドのh1見出しの設定 */
 }
 section.normal h2 { /* 通常スライドのh2見出しの設定 */
   padding: 5px 5px; /* 内側に上下1rem、左右2remの余白を追加 */
-  border-left: 4px solid #000; /* 左側に4px幅の黒い線を追加 */
+  border-left: 2px solid #000; /* 左側に4px幅の黒い線を追加 */
   font-size: 28px; /* フォントサイズを28pxに設定 */
 }
