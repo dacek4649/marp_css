@@ -54,6 +54,12 @@ section.normal h1 { /* 通常スライドのh1見出しの設定 */
   margin-bottom: -10px; /* 下の余白を-10pxに設定し、やや上に引き上げ */
 }
 section.normal h2 { /* 通常スライドのh2見出しの設定 */
+  border-left: 4px solid #000; /* 左側の線を設定 */
   color: purple; /* 見出し文字の色を紫色に設定 */
   font-size: 36px; /* フォントサイズを28pxに設定 */
+  margin-bottom: 0; /* 下部の外側余白を完全になくす */
 }
+section.normal p {
+  margin-top: 0; /* 段落の上部余白を完全になくす */
+}
+
