@@ -55,5 +55,5 @@ section.normal h1 { /* 通常スライドのh1見出しの設定 */
 }
 section.normal h2 { /* 通常スライドのh2見出しの設定 */
   color: purple; /* 見出し文字の色を紫色に設定 */
-  font-size: 28px; /* フォントサイズを28pxに設定 */
+  font-size: 32px; /* フォントサイズを28pxに設定 */
 }
