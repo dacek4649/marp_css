@@ -1,69 +1,63 @@
 /* @theme ds-slide-v2 */
-
 @import "gaia";
 
+/* スライド共通フッターの設定 */
 section::after,
 footer {
-  color: white;
-  background-color: #C29DC8;
-  height: 50px;
-  margin-bottom: 0px;
-  font-size: 75%;
-  padding: 0px 20px 0px 20px;
+  color: white; /* 文字色を白に設定 */
+  background-color: #C29DC8; /* フッター背景色を紫色に設定 */
+  height: 50px; /* 高さを50pxに設定 */
+  margin-bottom: 0px; /* 下の余白なし */
+  font-size: 75%; /* フォントサイズを通常の75%に */
+  padding: 0px 20px 0px 20px; /* 内側の上下0px、左右20pxの余白 */
 }
 
+/* スライド全体の設定 */
 section {
   /* color: black; */
-  background-color: white;
-  font-size: 32px;
-  font-family: sans-serif, "Hiragino Kaku Gothic ProN", Meiryo; 
+  background-color: white; /* 背景色を白に設定 */
+  font-size: 32px; /* フォントサイズを32pxに設定 */
+  font-family: sans-serif, "Hiragino Kaku Gothic ProN", Meiryo; /* フォントの優先順位 */
 }
 
+/* 表紙スライドの設定 */
 section.top {
-  /*background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(./img/logo.png);*/
-  background-repeat: no-repeat;
-  background-size: 400px;
-  background-position-x: center;
-  background-position-y: 180px;
+  background-repeat: no-repeat; /* 背景画像を繰り返さない */
+  background-size: 400px; /* 背景画像のサイズを400pxに指定 */
+  background-position-x: center; /* 背景画像の横位置を中央に設定 */
+  background-position-y: 180px; /* 背景画像の縦位置を180px下に設定 */
 }
 section.top h1 {
-  color: purple; 
-  font-size: 2.8rem;
-  margin-top: 150px;
-  margin-bottom: 20px;
-  text-align: center;
+  color: purple; /* 見出しの文字色を紫色に */
+  font-size: 2.6rem; /* フォントサイズを2.6remに設定 */
+  margin-top: 150px; /* 上に150pxの余白を追加 */
+  margin-bottom: 20px; /* 下に20pxの余白を追加 */
+  text-align: center; /* テキストを中央揃え */
 }
 section.top h2 {
-  /* color: black; */
-  font-size: 1.2rem;
-  margin-top: 30px;
-  text-align: center;
+  font-size: 1.2rem; /* h2要素のフォントサイズを1.2remに */
+  margin-top: 30px; /* 上に30pxの余白を追加 */
+  text-align: center; /* テキストを中央揃え */
 }
 
+/* 通常スライドの設定 */
 section.normal {
-  padding: 40px 50px 40px 50px;
-  /*background-image: url(./img/logo.png);*/
-  background-repeat: no-repeat;
-  background-size: 250px;
-  background-position: right 50px top 50px;
+  padding: 40px 50px 40px 50px; /* 内側に上下40px、左右50pxの余白 */
+  background-repeat: no-repeat; /* 背景画像を繰り返さない */
+  background-size: 250px; /* 背景画像のサイズを250pxに設定 */
+  background-position: right 50px top 50px; /* 背景画像を右上に配置 */
 }
 section.normal h1 {
-  color: purple;
-  font-size: 32px;
-  border-bottom: 2px solid #006888;
-  margin-bottom: -10px;
+  color: purple; /* h1の文字色を紫に設定 */
+  font-size: 40px; /* フォントサイズを32pxに設定 */
+  border-bottom: 2px solid #006888; /* 下線を追加 */
+  margin-bottom: -10px; /* 下の余白を-10pxに設定（少し上に引き上げる） */
 }
 section.normal h2 {
-  font-size: 1.5rem;
-}
-/* 脚注での補足用 */
-section.normal h3 {
-  font-size: 1.0rem;
+  font-size: 1.0rem; /* h2のフォントサイズを1.5remに設定 */
 }
 
-section.normal h4 {
-  font-size: 1.0rem;
-}
+
 section.final {
   background-image: url(./img/logo.png);
   background-repeat: no-repeat;
