@@ -16,7 +16,7 @@ footer { /* フッター全体のスタイル */
 section { /* 全スライド共通の設定 */
   /* color: black; */ /* （コメントアウト）文字色は未指定 */
   background-color: white; /* スライド全体の背景色を白に設定 */
-  font-size: 32px; /* デフォルトのフォントサイズを32pxに設定 */
+  font-size: 24px; /* デフォルトのフォントサイズを24pxに設定 */
   font-family: sans-serif, "Hiragino Kaku Gothic ProN", Meiryo; /* 使用フォントを指定 */
 }
 
@@ -49,34 +49,15 @@ section.normal { /* 通常スライド（class="normal"）用の設定 */
 }
 section.normal h1 { /* 通常スライドのh1見出しの設定 */
   color: purple; /* 見出し文字の色を紫色に設定 */
-  font-size: 36px; /* フォントサイズを36pxに設定 */
+  font-size: 32px; /* フォントサイズを32pxに設定 */
   border-bottom: 2px solid #006888; /* 見出しの下に青系の2px幅の線を追加 */
   margin-bottom: 10px; /* 下の余白を-10pxに設定し、やや上に引き上げ */
 }
 section.normal h2 {
   color: purple; /* 見出し文字の色を紫色に設定 */
-  font-size: 32px; /* フォントサイズを指定 */
+  font-size: 28px; /* フォントサイズを28px指定 */
   margin-bottom: 0; /* 下部の外側余白を完全になくす */
 }
 section.normal p {
   margin-top: 0.5px; /* 段落の上部余白を完全になくす */
-}
-section.normal h3 {
-  position: relative; /* h3本体を基準に配置 */
-  margin-top: 100px; /* h3の上の余白を増やす */
-  margin-bottom: 40px; /* h3の下の余白を増やして重なりを防ぐ */
-  font-size: 28px; /* 見出しのフォントサイズ */
-}
-section.normal h3:before {
-  content: "POINT"; /* "POINT"というラベルを表示 */
-  position: absolute; /* h3内での絶対配置 */
-  top: -50px; /* h3の上部に配置（余白を増やして重なりを防ぐ） */
-  left: 0; /* 左端から配置 */
-  background-color: #6b05e8; /* 背景色を薄緑に設定 */
-  color: white; /* ラベルの文字色を白に設定 */
-  font-size: 24px; /* ラベルのフォントサイズを設定 */
-  padding: 5px 10px; /* ラベル内の余白を設定 */
-  border-radius: 5px; /* ラベルの角を丸める */
-  white-space: nowrap; /* テキストが折り返されないようにする */
-  z-index: 1; /* ラベルが他の要素より前面に表示されるようにする */
 }
