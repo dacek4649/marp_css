@@ -17,7 +17,7 @@ footer { /* フッター全体のスタイル */
 section { /* 全スライド共通の設定 */
   /* color: black; */ /* （コメントアウト）文字色は未指定 */
   background-color: white; /* スライド全体の背景色を白に設定 */
-  font-size: 20px; /* デフォルトのフォントサイズを14pxに設定 */
+  font-size: 24px; /* デフォルトのフォントサイズを14pxに設定 */
   font-family: sans-serif, "Hiragino Kaku Gothic ProN", Meiryo; /* 使用フォントを指定 */
 }
 
