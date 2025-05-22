@@ -1,15 +1,4 @@
-/* @theme a4-document-theme.css */
-
-/*
-  Marp Global Directives to use with this theme for A4 Portrait:
-  ---
-  marp: true
-  theme: ./a4-document-theme.css # このファイル名を指定
-  size: A4
-  paginate: true # ページ番号を表示する場合 (フッターと連携可能)
-  footer: " "    # Marpのデフォルトフッターを空にするか、このCSSで装飾する内容を記述
-  ---
-*/
+/* @A4-Manual.css */
 
 @import "gaia"; /* Gaiaテーマをインポート */
 
